@@ -1,0 +1,52 @@
+/* ShowDetails.css */
+
+.show-details-container {
+  max-width: 800px; /* Adjust the maximum width of the content container */
+  margin: 0 auto;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  padding: 20px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.card-img-top {
+  width: 100%;
+  height: auto;
+  max-height: 300px; /* Adjust the maximum height of the image */
+  max-width: 100%; /* Adjust the maximum width of the image */
+  object-fit: contain;
+  border-radius: 8px;
+  margin-bottom: 20px;
+}
+
+.card-title {
+  font-size: 1.5rem;
+  margin-bottom: 10px;
+}
+
+.card-text {
+  font-size: 1rem;
+  line-height: 1.5;
+}
+
+.btn-book-ticket {
+  background-color: #6c757d;
+  color: #fff;
+  border: 1px solid #6c757d;
+  transition: background-color 0.3s;
+  display: inline-block;
+  width: 100%;
+  text-align: center;
+  padding: 0.5rem;
+  margin-top: 1rem;
+  text-decoration: none;
+}
+
+.btn-book-ticket:hover {
+  background-color: #495057;
+}
+
+.view-details-btn {
+  margin-top: 20px;
+}
